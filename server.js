@@ -10,7 +10,7 @@ var PORT = process.env.PORT || 8085;
 app.post('/provision', function(req, res) {
 	
 	
-	request('http://129.146.35.106:8081/orchestration/aws/provision');
+	request('http://129.146.35.106:8081/orchestration/bmcs/provision');
 
 	   	    res.json({
 	      "version": "1.0",
