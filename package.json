@@ -1,15 +1,14 @@
 {
     "name": "myalexaskill",
-    "version": "1.0.0",
-    "description": "BMCS Provisioning thru Alexa",
-    "author": "aravind.tadakamalla@oracle.com",
+    "version": "0.0.0",
+    "description": "Alexa Skill to provision in BMCS",
+    "author": "aravind.tadalamalla@oracle.com",
     "scripts": {
-        "prepublish": "zip -r target/myalexaskill.zip node_modules doc_root manifest.json *.js *.json"
+        "prepublish": "zip -r target/alexaskill.zip node_modules doc_root manifest.json *.js *.json"
     },
     "dependencies": {
-        "body-parser": "1.15.1",
-        "express": "4.13.4",
-        "request": "2.81.0"
+        "body-parser": "^1.15.1",
+        "express": "^4.13.4"
     },
     "engines": {
         "node": ">=0.12.0"
