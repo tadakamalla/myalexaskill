@@ -6,7 +6,7 @@
     "scripts": {
         "prepublish": "zip -r target/alexaskill.zip node_modules doc_root manifest.json *.js *.json"
     },
-    "dependencies": {
+     "dependencies": {
         "body-parser": "^1.15.1",
         "express": "^4.13.4",
         "request":"2.81.0"
