@@ -1,0 +1,21 @@
+{
+    "name": "myalexaskill",
+    "version": "1.0.0",
+    "description": "BMCS Provisioning thru Alexa",
+    "author": "aravind.tadakamalla@oracle.com",
+    "scripts": {
+        "prepublish": "zip -r target/myalexaskill.zip node_modules doc_root manifest.json *.js *.json"
+    },
+    "dependencies": {
+        "body-parser": "1.15.1",
+        "express": "4.13.4",
+        "request": "2.81.0"
+    },
+    "engines": {
+        "node": ">=0.12.0"
+    }
+}
+
+
+
+

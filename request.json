@@ -1,0 +1,24 @@
+{
+  "session": {
+    "sessionId": "SessionId.4e4098af-be20-4eeb-91c7-5c557097d2b5",
+    "application": {
+      "applicationId": "amzn1.ask.skill.893f1e2c-f542-4024-97df-f49760f053eb"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.AF77LT4IBYQRJP4OEKOXCIHQQ2GUSVVJCSTF7SYVEMGS6V2QQ5OJ7DGU3FY3FMAGLXUDDVDGXOESMCLL2L7SE4467JVCUWMKEGCASAA6I3ASKAN6GFD4SPCKUIKRXNQHVNUTW3VY5VUXASHG2ZLSK5IFQR6RREZEV6SJAOWQFCOKJFPB2TUTHRHWWWHGDLWCIZESMQ4HNM7EQRQ"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.b391711e-abf4-4aff-aaad-8de20cefeabc",
+    "locale": "en-US",
+    "timestamp": "2017-05-09T20:17:46Z",
+    "intent": {
+      "name": "provisionvm",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
