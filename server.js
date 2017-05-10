@@ -11,27 +11,20 @@ app.post('/provision', function(req, res) {
 	
 	
 	
-	 request('http://129.146.35.106:8081/orchestration/bmcs/provision',function (error, response, body) {
-		    if (!error && response.statusCode == 200) {
-		        console.log("Provisioning..");
-		     }
+	 request('http://129.146.35.106:8081/orchestration/bmcs/provision');
 
+	   	    res.json({
+	      "version": "1.0",
+	      "response": {
+	        "shouldEndSession": true,
+	        "outputSpeech": {
+	          "type": "SSML",
+	          "ssml": "<speak>I love Oracle Cloud, your VM will be provisioned momentarily</speak>"
+	        }
+	      }
+	    });
 	  
-		})
-		
- 	    res.json({
- 		      "version": "1.0",
- 		      "response": {
- 		        "shouldEndSession": true,
- 		        "outputSpeech": {
- 		          "type": "SSML",
- 		          "ssml": "<speak>I love Oracle Cloud, your VM will be provisioned momentarily</speak>"
- 		        }
- 		      }
- 		    });
-		  
-		});
-
+	});
 app.listen(PORT, function () {
     console.log('listening on port ' + PORT)
 
