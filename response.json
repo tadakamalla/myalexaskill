@@ -4,7 +4,7 @@
     "shouldEndSession": true,
     "outputSpeech": {
       "type": "SSML",
-      "ssml": "<speak>Provisioning a VM in Baremetal Cloud</speak>"
+      "ssml": "<speak>Your VM will be provisioned momentarily. I love Oracle Cloud! </speak>"
     }
   }
 }
