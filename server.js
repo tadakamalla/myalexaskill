@@ -24,7 +24,7 @@ app.post('/provision', function(req, res) {
 		        "shouldEndSession": true,
 		        "outputSpeech": {
 		          "type": "SSML",
-		          "ssml": "<speak>I love Oracle Cloud, your VM will be provisioned momentarily</speak>"
+		          "ssml": "<speak>Your VM will be provisioned momentarily. I love Oracle Cloud! </speak>"
 		        }
 		      }
 		    });
