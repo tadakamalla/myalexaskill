@@ -24,7 +24,7 @@ app.post('/provision', function(req, res) {
 		        "shouldEndSession": true,
 		        "outputSpeech": {
 		          "type": "SSML",
-		          "ssml": "<speak>CentOS VM Standard 1.2 will be provisioned momentarily in <say-as interpret-as='spell-out'>AD1</say-as> of Oracle Gen2 Cloud</speak>."
+		          "ssml": "<speak>CentOS VM Standard 1.2 will be provisioned momentarily in <say-as interpret-as='spell-out'>AD1</say-as> of Oracle Gen2 Cloud</speak>"
 		        }
 		      }
 		    });
