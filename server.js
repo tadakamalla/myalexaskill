@@ -11,7 +11,7 @@ app.post('/provision', function(req, res) {
 	
 	
 	
-	 request('http://129.146.35.106:8081/orchestration/bmcs/provision',function (error, response, body) {
+	 request('http://129.146.35.106:8086/orchestration/bmcs/provision',function (error, response, body) {
 		    if (!error && response.statusCode == 200) {
 		        console.log("Provisioning request from ALEXA..");
 		     }
